@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodProjrct'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = '我测试的组件库.'
   s.swift_version    = '5'
 
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'base' do |ss|
 
-  ss.source_files = 'PodProjrct/Classes/base/**/*'
+  ss.source_files = 'PodProjrct/Classes/base/*'
 
   end
   

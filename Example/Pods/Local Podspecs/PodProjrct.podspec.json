@@ -1,7 +1,8 @@
 {
   "name": "PodProjrct",
-  "version": "0.1.0",
-  "summary": "A short description of PodProjrct.",
+  "version": "0.5.0",
+  "summary": "我测试的组件库.",
+  "swift_versions": "5",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JL521/PodProjrct",
   "license": {
@@ -13,10 +14,17 @@
   },
   "source": {
     "git": "https://github.com/JL521/PodProjrct.git",
-    "tag": "0.1.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodProjrct/Classes/**/*"
+  "source_files": "PodProjrct/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "base",
+      "source_files": "PodProjrct/Classes/base/*"
+    }
+  ],
+  "swift_version": "5"
 }
