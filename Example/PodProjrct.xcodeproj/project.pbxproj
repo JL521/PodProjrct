@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		95500D72F1F2D04865820547 /* Pods_PodProjrct_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7533FCD6A55D92E5B48FA5 /* Pods_PodProjrct_Example.framework */; };
 		B58B63061B36822A93A04B16 /* Pods_PodProjrct_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A64D2ABF836016BFFBF61B /* Pods_PodProjrct_Tests.framework */; };
+		B9D1F572240E327A0039733B /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1F571240E327A0039733B /* BaseTest.swift */; };
+		B9D1F575240E336F0039733B /* Kit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1F574240E336F0039733B /* Kit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		67B65FB7867CAA9E3497C53A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9D1F571240E327A0039733B /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		B9D1F574240E336F0039733B /* Kit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kit.swift; sourceTree = "<group>"; };
 		C9A64D2ABF836016BFFBF61B /* Pods_PodProjrct_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodProjrct_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D380C826F08CEF95136EF0BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DA67E1AE1BA2E75D20591FE7 /* Pods-PodProjrct_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProjrct_Tests.release.xcconfig"; path = "Target Support Files/Pods-PodProjrct_Tests/Pods-PodProjrct_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		607FACD21AFB9204008FA782 /* Example for PodProjrct */ = {
 			isa = PBXGroup;
 			children = (
+				B9D1F573240E334B0039733B /* uikit */,
+				B9D1F570240E32690039733B /* base */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +163,22 @@
 				C9A64D2ABF836016BFFBF61B /* Pods_PodProjrct_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D1F570240E32690039733B /* base */ = {
+			isa = PBXGroup;
+			children = (
+				B9D1F571240E327A0039733B /* BaseTest.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		B9D1F573240E334B0039733B /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				B9D1F574240E336F0039733B /* Kit.swift */,
+			);
+			path = uikit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,7 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D1F575240E336F0039733B /* Kit.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B9D1F572240E327A0039733B /* BaseTest.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
