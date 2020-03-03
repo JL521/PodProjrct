@@ -14,4 +14,8 @@ public class Test: NSObject {
     public class func test(){
         print("test...")
     }
-}
+    
+    public class func haha(){
+        print("哈哈我成功了")
+    }
+ }
