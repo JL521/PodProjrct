@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		05A2BE27B07C8C987F2D03C1 /* Pods-PodProjrct_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProjrct_Example.debug.xcconfig"; path = "Target Support Files/Pods-PodProjrct_Example/Pods-PodProjrct_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B538449D06B7AD2E3E2CE57 /* Pods-PodProjrct_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProjrct_Example.release.xcconfig"; path = "Target Support Files/Pods-PodProjrct_Example/Pods-PodProjrct_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4B2B9E0C9ED28A58E88CCF11 /* PodProjrct.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PodProjrct.podspec; path = ../PodProjrct.podspec; sourceTree = "<group>"; };
+		4B2B9E0C9ED28A58E88CCF11 /* PodProjrct.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodProjrct.podspec; path = ../PodProjrct.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PodProjrct_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodProjrct_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* PodProjrct_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodProjrct_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		67B65FB7867CAA9E3497C53A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67B65FB7867CAA9E3497C53A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9A64D2ABF836016BFFBF61B /* Pods_PodProjrct_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodProjrct_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D380C826F08CEF95136EF0BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D380C826F08CEF95136EF0BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DA67E1AE1BA2E75D20591FE7 /* Pods-PodProjrct_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProjrct_Tests.release.xcconfig"; path = "Target Support Files/Pods-PodProjrct_Tests/Pods-PodProjrct_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB70379F8C0D08C4089E57F5 /* Pods-PodProjrct_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProjrct_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PodProjrct_Tests/Pods-PodProjrct_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7533FCD6A55D92E5B48FA5 /* Pods_PodProjrct_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodProjrct_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				DB70379F8C0D08C4089E57F5 /* Pods-PodProjrct_Tests.debug.xcconfig */,
 				DA67E1AE1BA2E75D20591FE7 /* Pods-PodProjrct_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

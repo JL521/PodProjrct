@@ -1,0 +1,6 @@
+framework module PodProjrct {
+  umbrella header "PodProjrct-umbrella.h"
+
+  export *
+  module * { export * }
+}
