@@ -1,6 +1,6 @@
 {
   "name": "PodProjrct",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "summary": "我测试的组件库.",
   "swift_versions": "5",
   "description": "TODO: Add long description of the pod here.",
@@ -14,16 +14,26 @@
   },
   "source": {
     "git": "https://github.com/JL521/PodProjrct.git",
-    "tag": "0.6.0"
+    "tag": "0.7.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "PodProjrct/Classes/**/*",
+  "default_subspecs": "Base",
   "subspecs": [
     {
-      "name": "base",
+      "name": "Base",
       "source_files": "PodProjrct/Classes/base/*"
+    },
+    {
+      "name": "RCPickView",
+      "source_files": "PodProjrct/Classes/RCPickView/**/*",
+      "resource_bundles": {
+        "RCPickView": [
+          "PodProjrct/Classes/RCPickView/resource/*"
+        ]
+      }
     },
     {
       "name": "RCPagemenu",

@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let titles = ["test1", "test2", "test3"]
-        let childs = [UIViewController(), UIViewController(), UIViewController()]
+        let titles = ["test1", "test2", "test3", "test4"]
+        let childs = [UIViewController(), UIViewController(), UIViewController(),RCAddressViewController(height:250)]
         let pagevc = RCPagemenController(titles: titles, childs: childs, count: 3 )
         pagevc.selectBlock = {
             (index: Int) in

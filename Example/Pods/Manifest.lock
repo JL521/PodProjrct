@@ -4,11 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - PodProjrct (0.6.0):
-    - PodProjrct/base (= 0.6.0)
-    - PodProjrct/RCPagemenu (= 0.6.0)
-  - PodProjrct/base (0.6.0)
-  - PodProjrct/RCPagemenu (0.6.0)
+  - PodProjrct (0.7.0):
+    - PodProjrct/Base (= 0.7.0)
+  - PodProjrct/Base (0.7.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -24,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PodProjrct: 7639632f6760e0019f77f1e7c597c934b130028d
+  PodProjrct: aa419ef00608f53d955b0087263cf914560f0b80
 
 PODFILE CHECKSUM: 473a273c1c0e65625f555128a61484daac094af6
 
