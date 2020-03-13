@@ -10,11 +10,11 @@ import UIKit
 
 public class RCAddressModel: NSObject {
     public var title:String?
-    public var adcode:String?
+    public var adcode:Int?
     public var child:[RCAddressModel]?
     init(dict: [String:Any]) {
         title = dict["title"] as? String
-        adcode = dict["ad_code"] as? String
+        adcode = dict["ad_code"] as? Int
         if let childarr = dict["child"] as? [[String:Any]] {
             child = []
             for childdic in childarr {

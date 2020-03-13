@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodProjrct'
-  s.version          = '0.8.0'
+  s.version          = '0.9.2'
   s.summary          = '我测试的组件库.'
   s.swift_version    = '5'
 
@@ -41,20 +41,20 @@ TODO: Add long description of the pod here.
   
   end
   
-  s.subspec "RCPickView" do |ss|
-    ss.source_files  = "PodProjrct/Classes/RCPickView/**/*"
-    ss.resource_bundles = {
-      'RCPickView' => ['PodProjrct/Classes/RCPickView/resource/*']
-    }
-  end
-  
-  s.subspec "RCPagemenu" do |ss|
+    s.subspec "RCPagemenu" do |ss|
     ss.source_files  = "PodProjrct/Classes/RCPagemenu/**/*"
   end
   
-  # s.resource_bundles = {
-  #   'PodProjrct' => ['PodProjrct/Assets/*.png']
-  # }
+  s.subspec "RCPickView" do |ss|
+    ss.source_files  = "PodProjrct/Classes/RCPickView/*"
+    #ss.resource_bundles = {
+     # 'RCPickViewPlist' => ['PodProjrct/Assets/resource/*']
+    #}
+  end
+  
+   s.resource_bundles = {
+     'PodProjrct' => ['PodProjrct/Assets/resource/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

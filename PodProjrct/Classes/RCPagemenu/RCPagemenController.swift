@@ -17,7 +17,7 @@ public class RCPagemenController: UIViewController {
     public var selectBlock : ( (_ selectindex : Int) -> Void)?
        fileprivate lazy var pageTitleView : YMPageTitleView = {[weak self] in
         let statusHeight:CGFloat = UIScreen.main.bounds.height >= 812 ? 44 : 20
-        let titleFrame = CGRect(x: 0, y: statusHeight, width:UIScreen.main.bounds.width, height: 44)
+        let titleFrame = CGRect(x: 0, y: 0, width:UIScreen.main.bounds.width, height: 44)
         let linew = UIScreen.main.bounds.width/(self?.maxShowCount ?? 4)-20
         let linh = self?.pLineHeight ?? 2
         let font = self?.ptitleFont ?? UIFont.systemFont(ofSize: 15.0)
