@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodProjrct'
-  s.version          = '0.9.2'
+  s.version          = '0.9.3'
   s.summary          = '我测试的组件库.'
   s.swift_version    = '5'
 
