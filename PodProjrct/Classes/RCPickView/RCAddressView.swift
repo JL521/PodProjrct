@@ -206,7 +206,9 @@ extension RCAddressView {
         var dataDic = dict
         if  dict.count <= 0 {
             let bundle = Bundle(for: self.classForCoder)
-            guard let dictionary = NSArray(contentsOfFile: bundle.path(forResource: "rcaddress", ofType: "plist") ?? "") as? [[String:Any]] else {
+            let bundlepath = "\(bundle.resourcePath ?? "")/PodProjrct.bundle"
+            let bun = Bundle.init(path: bundlepath)
+            guard let dictionary = NSArray(contentsOfFile: bun?.path(forResource: "rcaddress", ofType: "plist" ) ?? "") as? [[String:Any]] else {
                 return
             }
             dataDic = dictionary
